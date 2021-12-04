@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1080477041112",
+    "project_id": "playzone-7afeb",
+    "storage_bucket": "playzone-7afeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080477041112:android:e3e92e8a86b7c8c55f32ad",
+        "android_client_info": {
+          "package_name": "com.example.vgshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080477041112-te3f50s6m1mvk0c2jk8uboe3bv01kqi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtwlhXNxjXdfxvpUr5GnaeBzCq9_XxwIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080477041112-te3f50s6m1mvk0c2jk8uboe3bv01kqi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

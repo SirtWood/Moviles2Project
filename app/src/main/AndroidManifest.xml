@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.vgshop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icono_app_playzone"
+        android:label="PlayZone"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VGShop">
+        <activity
+            android:name=".ProductAddToCart"
+            android:exported="false" />
+        <activity
+            android:name=".MainInvoice"
+            android:exported="false" />
+        <activity
+            android:name=".MainUserLogin"
+            android:exported="true" />
+        <activity
+            android:name=".MainRegister"
+            android:exported="true" />
+        <activity
+            android:name=".AddProduct"
+            android:exported="false" />
+        <activity
+            android:name=".EditProduct"
+            android:exported="false" />
+        <activity
+            android:name=".MainProduct"
+            android:exported="true" />
+        <activity
+            android:name=".MainUser"
+            android:exported="true" />
+        <activity
+            android:name=".UserDashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainSellerLogin"
+            android:exported="true" />
+        <activity
+            android:name=".SellerDashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

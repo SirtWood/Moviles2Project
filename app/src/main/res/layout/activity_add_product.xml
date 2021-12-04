@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProduct">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:contentDescription="header"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/ic_logo_playzone_letras" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline14">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/product_name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/product_description"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/product_category"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/product_price"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/product_stock"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnAddProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custom_button"
+            android:onClick="jbtnAddProduct"
+            android:text="@string/btn_add_product" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

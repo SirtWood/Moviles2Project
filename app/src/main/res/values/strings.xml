@@ -1,0 +1,49 @@
+<resources>
+    <string-array name="roles">
+        <item>User</item>
+        <item>Seller</item>
+    </string-array>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_add_to_cart">Add to cart</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_add_product">Add Product</string>
+    <string name="header">Header</string>
+    <string name="btn_product_list">Product List</string>
+    <string name="btn_shopping_list">Shopping List</string>
+    <string name="btn_shopping_history">Shopping History</string>
+    <string name="btn_edit_user_data">Edit User Data</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_go">Go!</string>
+    <string name="btn_orders_list">Orders List</string>
+    <string name="btn_shopping_cart">Shopping Cart</string>
+    <string name="btn_edit_users">Edit Users</string>
+    <string name="btn_login_as_seller">Login as Seller</string>
+    <string name="btn_login_as_customer">Login as Customer</string>
+    --------------product_item--------------
+    <string name="product_name">Name:</string>
+    <string name="product_description">Description:</string>
+    <string name="product_stock">Stock:</string>
+    <string name="product_price">Price:</string>
+    <string name="product_category">Category:</string>
+    <string name="amount2">Amount:</string>
+    <string name="total">Total:</string>
+    --------------user_item------------
+    <string name="user_name">User Name:</string>
+    <string name="email">Email:</string>
+    <string name="country">Country:</string>
+    <string name="city">City:</string>
+    <string name="Role">role:</string>
+    <string name="shop_name">Shop Name:</string>
+    <string name="user_preference_key">VGShop_key</string>
+    <string name="btn_pay">Go to pay</string>
+    <string name="rb_user">User</string>
+    <string name="rb_seller">Seller</string>
+    <string name="amount">Amount you want to buy</string>
+    <string name="btn_invoice_pay">Pay</string>
+    <string name="btn_add_product_to_cart">Add Product to Cart</string>
+
+
+</resources>
